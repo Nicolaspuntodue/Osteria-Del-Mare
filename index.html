@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Osteria del Mare — Cucina atipica marinara pescarese, Spoltore</title>
+  <meta name="description" content="Osteria del Mare di Daniele Di Russo a Santa Teresa di Spoltore (PE): solo pesce dell'Adriatico, salumi di mare e bottarghe stagionati in casa, forno a legna. Gambero Rosso, Ristoranti d'Italia 2026: Due Forchette.">
+  <meta name="theme-color" content="#08131f">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,500..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/src/style.css">
+</head>
+<body>
+  <canvas id="banco" aria-hidden="true"></canvas>
+  <a class="skip" href="#daniele">Vai al contenuto</a>
+
+  <header class="hero" id="top">
+    <div class="hero__stage">
+      <canvas id="room" aria-hidden="true"></canvas>
+      <img class="hero__poster" src="/img/tonno-trancio.jpg" alt="" width="1400" height="1473">
+      <nav class="nav" aria-label="Sezioni">
+        <a class="nav__mark" href="#top">Osteria del Mare</a>
+        <span class="nav__links">
+          <a href="#daniele">Chi siamo</a>
+          <a href="#premi">Premi</a>
+          <a href="#menu">Il menù</a>
+          <a href="#prenota">Prenota</a>
+        </span>
+      </nav>
+
+      <div class="hero__step hero__step--open" data-step="0">
+        <h1 class="hero__title">Osteria del Mare</h1>
+        <p class="hero__lead">Cucina atipica marinara pescarese a Santa Teresa di Spoltore. Solo pesce dell'Adriatico, mai congelato. <span class="status" data-status>Lunedì e martedì chiuso.</span></p>
+        <a class="btn" href="tel:+393914792525">Prenota un tavolo</a>
+      </div>
+      <figure class="hero__step hero__step--quote" data-step="1"><blockquote>«Non sono uno chef, sono un semplice cuoco di mare.»</blockquote><figcaption>Daniele Di Russo</figcaption></figure>
+      <figure class="hero__step hero__step--quote" data-step="2"><blockquote>Tonno frollato sei mesi, più di venti bottarghe, il forno a legna.</blockquote><figcaption>#NOFROZENPLEASE</figcaption></figure>
+
+      <ul class="awards-bar" aria-label="Riconoscimenti">
+        <li class="awards-bar__gr">
+          <svg viewBox="0 0 40 32" width="40" height="32" aria-hidden="true"><g fill="currentColor"><path d="M6 2h2v8h1V2h2v8h1V2h2v9c0 2-1.4 3.4-3 3.8V30h-2V14.8C7.4 14.4 6 13 6 11z"/><path d="M24 2h2v8h1V2h2v8h1V2h2v9c0 2-1.4 3.4-3 3.8V30h-2V14.8c-1.6-.4-3-1.8-3-3.8z"/></g></svg>
+          <span><strong>Gambero Rosso, Ristoranti d'Italia 2026</strong>Due Forchette · 81 su 100</span>
+        </li>
+        <li><span><strong>Falstaff</strong>84 punti</span></li>
+        <li><span><strong>Google</strong>4,7 su 5 · 336 recensioni</span></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <section class="people" id="daniele" aria-labelledby="people-h">
+      <div class="people__pin"><h2 class="people__h" id="people-h">Daniele<br>ed Elena</h2></div>
+      <div class="people__list">
+        <figure class="person">
+          <img src="/img/daniele-ventresche.jpg" alt="Daniele Di Russo in cucina con due ventresche di tonno rosso" width="1400" height="1466" loading="lazy">
+          <figcaption><strong>Daniele Di Russo</strong><span>In cucina</span>Classe 1985, cresciuto a Piazza Grue, la marina sud di Pescara. Autodidatta: la sua scuola sono stati il mare e la pesca dei tonni, sulla barca del padre Sabatino. «Non sono uno chef, sono un semplice cuoco di mare.»</figcaption>
+        </figure>
+        <div class="person person--text"><p><strong>Elena Cilli</strong><span>In sala e in cantina</span>Compagna e socia di Daniele. Accoglie, racconta a voce il menù del giorno e cura la carta dei vini: l'Abruzzo dei grandi vignaioli, con il Cerasuolo di Valentini sfuso.</p></div>
+      </div>
+    </section>
+
+    <section class="stats" aria-labelledby="stats-h">
+      <figure class="stats__card" data-rise><img src="/img/gambero-rosso-2026.jpg" alt="Gambero Rosso, Ristoranti d'Italia 2026: Forchette, 81 punti, Osteria del Mare" width="1145" height="1400" loading="lazy"></figure>
+      <div class="stats__body">
+        <h2 id="stats-h" data-rise>Premiati dalle guide</h2>
+        <ul class="stats__list">
+          <li data-rise><span class="stat">81<small>/100</small></span><span><strong>Gambero Rosso</strong>Ristoranti d'Italia 2026, Due Forchette</span></li>
+          <li data-rise><span class="stat">84</span><span><strong>Falstaff</strong>punti, «uno dei migliori ristoranti di pesce della zona di Pescara»</span></li>
+          <li data-rise><span class="stat">4,7</span><span><strong>Google</strong>su 5, da 336 recensioni</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="premi" id="premi" aria-labelledby="premi-h">
+      <p class="premi__line" data-cycle><span class="lead" id="premi-h">Ne hanno scritto</span> <span>Gambero Rosso</span>, <span>Falstaff</span>, <span>Passione Gourmet</span>, <span>Virtù Quotidiane</span>, <span>Meet in Cucina</span>, <span>Abruzzo Impresa</span>, <span>So Wine So Food</span>.</p>
+      <div class="premi__body">
+        <ul class="awards">
+          <li><strong>Gambero Rosso, Ristoranti d'Italia 2026</strong>Due Forchette, 81 punti su 100</li>
+          <li><strong>Gambero Rosso, Ristoranti d'Italia 2024</strong>Due Gamberi</li>
+          <li><strong>Gambero Rosso, Ristoranti d'Italia 2023</strong>Due Gamberi, al primo anno in guida</li>
+          <li><strong>Gambero Rosso, il mensile</strong>Servizio sull'osteria, estate 2026</li>
+          <li><strong>Falstaff</strong>84 punti: «uno dei migliori ristoranti di pesce della zona di Pescara»</li>
+          <li><strong>Passione Gourmet</strong>Due cipolle, trattoria. «Dry aged ottimamente padroneggiato»</li>
+          <li><strong>FUOCO 2026</strong>Ospite al Ristorante Andreina di Loreto, dopo la cena a quattro mani con Errico Recanati</li>
+          <li><strong>Google</strong>4,7 su 5, da 336 recensioni</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="menu" id="menu" aria-labelledby="menu-h">
+      <div class="menu__intro">
+        <h2 id="menu-h" data-rise>Il menù lo decide il mare</h2>
+        <p class="menu__lead" data-rise>Non c'è una carta da imparare a memoria: si cucina quello che arriva dalle barche, e in sala Elena racconta cosa c'è oggi.</p>
+        <div class="menu__two" data-rise>
+          <div><h3>Menù degustazione</h3><p>Sempre presente. Un percorso tra crudi, salumi di mare, primi, forno a legna e brace, deciso ogni giorno da Daniele sul pescato.</p></div>
+          <div><h3>Alla carta</h3><p>Accanto alla degustazione, la carta con il pescato del giorno.</p></div>
+          <div><h3>Spesa minima</h3><p>60 euro a persona.</p></div>
+        </div>
+      </div>
+
+      <div class="course">
+        <div class="course__text"><h3 class="course__h">Primi di mare</h3><p>Pasta e sughi fatti con il pescato della mattina: chitarra, spaghetto, gnocchetto. Il sugo cambia con quello che arriva dalle barche.</p></div>
+        <div class="course__pics">
+          <figure class="dish dish--l"><img src="/img/chitarra-asparagi.jpg" alt="Chitarra con asparagi, seppie e gamberi rosa" width="900" height="1600" loading="lazy"><figcaption>Chitarra, asparagi, seppie e gamberi rosa</figcaption></figure>
+          <figure class="dish"><img src="/img/spaghetto-gamberi-rossi.jpg" alt="Spaghetto Mancini con brodo di gamberi rossi e scampi" width="1600" height="1600" loading="lazy"><figcaption>Spaghetto Mancini, brodo di gamberi rossi e scampi</figcaption></figure>
+          <figure class="dish"><img src="/img/spaghetto-scamponi.jpg" alt="Spaghetto aglio, olio e peperoncino con gli scamponi" width="1600" height="1600" loading="lazy"><figcaption>Aglio, olio, peperoncino e scamponi</figcaption></figure>
+          <figure class="dish"><img src="/img/gnocchetto-seppioline.jpg" alt="Gnocchetto in bianco con seppioline e gamberi rosa" width="1280" height="1600" loading="lazy"><figcaption>Gnocchetto in bianco, seppioline e gamberi rosa</figcaption></figure>
+        </div>
+      </div>
+
+      <div class="course course--flip">
+        <div class="course__text"><h3 class="course__h">Sughi, guazzetti e brodetto</h3><p>Il guazzetto cambia con la stagione, il brodetto è quello pescarese. Si fa la scarpetta con il pane del forno a legna.</p></div>
+        <div class="course__pics">
+          <figure class="dish dish--l"><img src="/img/guazzetto.jpg" alt="Guazzetto di vongole e scampi con il pane bruscato" width="1200" height="1200" loading="lazy"><figcaption>Guazzetto di stagione</figcaption></figure>
+          <figure class="dish"><img src="/img/gnocchetti-brodetto.jpg" alt="Gnocchetti con brodetto alla pescarese" width="960" height="1200" loading="lazy"><figcaption>Gnocchetti con brodetto alla pescarese</figcaption></figure>
+        </div>
+      </div>
+
+      <div class="course">
+        <div class="course__text"><h3 class="course__h">Dal forno a legna e dalla brace</h3><p>Arrosti di pesce, crostacei e verdure sulla legna, a fuoco vivo o cotti a lungo, lontano dalla brace.</p></div>
+        <div class="course__pics">
+          <figure class="dish dish--l"><img src="/img/mazzolina-brace.jpg" alt="Filetto di mazzolina alla brace con asparagi alla brace e bottarga" width="1080" height="1350" loading="lazy"><figcaption>Filetto di mazzolina alla brace, asparagi alla brace e bottarga</figcaption></figure>
+          <figure class="dish"><img src="/img/scamponi-forno.jpg" alt="Scamponi aperti cotti nel forno a legna" width="900" height="1600" loading="lazy"><figcaption>Scamponi aperti al forno a legna: 400 gradi, un minuto e mezzo</figcaption></figure>
+          <figure class="dish"><img src="/img/astice.jpg" alt="Astice aperto e cotto al forno a legna" width="1050" height="1400" loading="lazy"><figcaption>Astice al forno a legna</figcaption></figure>
+          <figure class="dish"><img src="/img/pomodoro-forno.jpg" alt="Pomodoro cuore di bue al forno a legna con stracciata e bottarga" width="1050" height="1400" loading="lazy"><figcaption>Cuore di bue al forno, stracciata e bottarga</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="vetrina" id="bottarghe" aria-labelledby="vetrina-h">
+      <h2 class="vetrina__h" id="vetrina-h" data-rise>Le bottarghe e i frollati</h2>
+      <div class="band">
+        <figure class="band__panel" style="--g:5">
+          <img src="/img/tonno-trancio.jpg" alt="Trancio di tonno rosso frollato, con le venature di grasso" width="1400" height="1473" loading="lazy">
+          <figcaption class="band__title">Tonno rosso,<br>frollato sei mesi</figcaption>
+        </figure>
+        <figure class="band__panel" style="--g:3">
+          <img src="/img/fichi-bottarga.jpg" alt="Fichi con la bottarga fatta in casa" width="1080" height="1440" loading="lazy">
+        </figure>
+        <figure class="band__panel" style="--g:2">
+          <img src="/img/stagionati.jpg" alt="Fette di aguglia imperiale e tonno stagionati" width="900" height="1600" loading="lazy">
+        </figure>
+        <figure class="band__panel" style="--g:3">
+          <img src="/img/tonno-frollato.jpg" alt="Fette di tonno frollato appena scottate" width="1080" height="1440" loading="lazy">
+        </figure>
+      </div>
+      <p class="vetrina__cap" data-rise>Le uova arrivano dai «gioiellieri di fiducia» e diventano bottarga in casa: di muggine, di tonno, di alalunga, di pesci diversi ogni stagione. Accanto, il tonno rosso frollato, il prosciutto di ricciola, l'aguglia imperiale stagionata tre mesi, in una vetrina frigo progettata su misura.</p>
+    </section>
+
+    <section class="cantina" id="cantina" aria-labelledby="cantina-h">
+      <div class="course">
+        <div class="course__text"><h2 class="course__h" id="cantina-h">La cantina</h2><p>Una carta di vini e distillati costruita in otto anni, con una cantina sotto terra che cresce piano piano. L'Abruzzo prima di tutto: Valentini, Emidio Pepe, Cataldi Madonna, Tiberio, Valle Reale. E il Cerasuolo di Valentini sfuso, alla mescita.</p></div>
+        <div class="course__pics">
+          <figure class="dish dish--l"><img src="/img/cantina.jpg" alt="Le bottiglie coricate negli scaffali della cantina dell'osteria" width="903" height="1600" loading="lazy"><figcaption>La cantina sotto terra</figcaption></figure>
+          <figure class="dish"><img src="/img/dom-perignon.jpg" alt="Tre bottiglie di Dom Pérignon Rosé nelle loro casse" width="1600" height="1600" loading="lazy"><figcaption>«Per i più assetati»</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery" aria-labelledby="gallery-h">
+      <h2 class="gallery__h" id="gallery-h">Dal crudo al fritto</h2>
+      <div class="field">
+        <figure class="scatter" style="--c:1; --w:5; --y:0" data-speed="-5"><img src="/img/gambero-crudo.jpg" alt="Gambero rosso crudo nel piatto, con un filo d'olio" width="1080" height="1080" loading="lazy"><figcaption>Gambero rosso, crudo</figcaption></figure>
+        <figure class="scatter" style="--c:8; --w:4; --y:16vh" data-speed="8"><img src="/img/fritto.jpg" alt="Pesce fritto in pastella con prezzemolo" width="1080" height="1080" loading="lazy"><figcaption>La frittura</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="prenota" id="prenota" aria-labelledby="prenota-h">
+      <h2 class="prenota__h" id="prenota-h">Per un tavolo si telefona. Il menù del giorno ve lo racconta Elena.</h2>
+      <a class="prenota__tel" href="tel:+393914792525" data-fit>391 479 2525</a>
+      <div class="prenota__foot">
+        <p><a href="https://www.google.com/maps/search/?api=1&amp;query=Osteria+del+Mare+Via+Sangro+9+Spoltore">Via Sangro 9, Santa Teresa di Spoltore (PE)</a></p>
+        <p><a href="https://www.instagram.com/osteriadelmare_/">Instagram @osteriadelmare_</a> · <a href="https://www.instagram.com/daniele1985rab/">@daniele1985rab</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <div class="foot__cols">
+      <div><p>Dove</p><p>Via Sangro 9<br>65010 Santa Teresa di Spoltore (PE)</p></div>
+      <div><p>Orari</p><p>Mercoledì–domenica<br>13:00–14:30 e 20:00–22:00<br>Lunedì e martedì chiuso</p></div>
+      <div><p>Telefono</p><p><a href="tel:+393914792525">391 479 2525</a></p></div>
+      <div><p>Pagina</p><p><a href="#daniele">Chi siamo</a><br><a href="#premi">Premi</a><br><a href="#menu">Il menù</a><br><a href="#cantina">La cantina</a></p></div>
+    </div>
+    <p class="foot__mark" data-fit aria-hidden="true"><span>Osteria</span> <span>del Mare</span></p>
+    <p class="foot__legal">© 2026 Osteria del Mare di Daniele Di Russo · Foto @osteriadelmare_ · #NOFROZENPLEASE</p>
+  </footer>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
